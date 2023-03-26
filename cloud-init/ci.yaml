@@ -1,0 +1,13 @@
+#cloud-config
+users:
+  - name: jtprogru
+    gecos: Michael Savin
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    lock_passwd: true
+    ssh_authorized_keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHP9Xd+Xdd2WQA/IZFe1wvhYPqXANrO3bhg6/3emC9TC jtprogru@gmail.com
+      - ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCPFxvzEecAOBCipCcMxrVVGXSboWdXjMsadl31Ezl0ad4zPIQEtPdUkLPgDZXMB/VKUrpxDdqPf1FmwqArJZP0= jtprogru@gmail.com
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC2+x/NZTCTr8num8CmTGNeO+N2ibmCn27om/y25xSoGEhDF2qpl3uQfKG+heG0GHQMRDQaaZuYts++zK/T4ygP1Z6+xdge6Tn3LhMnyKtxwvxv+96+sbY6gVWr+6vcWbYgvpw021Wu9VK39bY6mq1MCQzKERMt9HUoXJd6Me5FNHxO1jbs0DFFspFaIU+hrMjhlcLWkboDnOG8DU+/Wgwg/LoREtRlPDdu7u+pIgl17tofejIPcSXsOKnvPMqckTOI91epqxGexqB0J6HLDpsJ1j6v94kaoZiaZnii6bYwzXnRNMqF6dA9xOje1KG1OPVwf4Ewx8a/oPI2rKALCDJ0O11bXbpt4AkfDIZP7ZQy2x+LSRGX+g0L4Nr6riCoCKNrJBqrMjFhRX3JTnDa4VcoFNKSD3QK6/3r/DfOVNLwR0M8BGb4srHSTXSytJCxYdoiGK/iFFVB6FYbUxEoPPwzoYvYZ+rlXGB/ThuCm77S8msuNDJpypBGxdjdNH20dX0= jtprogru@cronus.local
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCXzz6ZloH+RkLmeVkmIw+4Ydj2Blz4HpUlxRdGkwfHCkcjXTVmz4x3zBFveLF6jKalyw8anVRNlTfhWjc2aM7k0dE+GLhqI1xGnIKA2s/YNdFR+6jvPas5gky9c7nSI+i9ZPS+zGksbw4EVVtycMfCLhsVXD1znJ2QmA29VmRyxFAiRXQJxVj+GODBzeJB8CrxFU9/76pPDSyE6qxBOpN8QSDiVCJP6ThUwp8lQ5OzZofmDxMw70GNnBwRWYIMatyAIgQHcHjkGyGCn3p0rq8PiTEbPzqXA0HnfWWsQSmJDuXMgbiabgrPBK9A3gnmrR/OYcrxaIQuzhFpPTqczG21bDVpyJS2LrLbyNI9VRX85pm05PfQB1ULMNNptR9h7M4RKf1LTtBIn9spP4LZ0uF5PNNv4y4FyaBniv4l5+404LguolouNgFlr+7rW+xJ5X/MOeNzjfv25FFDanouZYx6Vd9Q8yDVCjmzLBHUxkgqOoMgWmaPWl8JjCYzZB+XAGf6QYHOF/rVNDX43lfbSd0aMttzmClttG+hMirHKDubm7UzVMBHBV+GlyPMh4FvG6/sfBtil/EvFtW0caDCEaA1Bn8mYppcZ3SOwnXNA4nuBTnPYNbeLh+DUaTJejZW/SeKeDLPLzVaW5nCWXXkZPfUI1rqEngCAcA/VLmYlBVCsQ== RSA 4096 jtprogru
